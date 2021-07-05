@@ -6,6 +6,6 @@
 
 - clone this repo
 
-- run `helm install -f ./kubeview/values.yaml kubeview ./kubeview -n namespace`. You can also customize your `values.yaml` file
+- run `helm install -f ./kubeview-helm/values.yaml kubeview ./kubeview-helm -n namespace`. You can also customize your `values.yaml` file
 
 - run `kubectl port-forward svc/kubeview -n namespace 8000` To view your Kubeview dashboard on `localhost:8000`
